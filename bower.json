@@ -1,0 +1,20 @@
+{
+  "name": "My New Gulp based project",
+  "version": "0.0.1",
+  "authors": [
+    "Sunny"
+  ],
+  "license": "MIT",
+  "homepage": "/Dist/index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "mappy-breakpoints": "~0.2.1",
+    "susy": "~2.2.6"
+  }
+}

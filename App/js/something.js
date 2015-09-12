@@ -1,0 +1,1 @@
+var thisissomewar = "I am hero";

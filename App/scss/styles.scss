@@ -1,0 +1,31 @@
+@import "susy";
+@import "mappy-breakpoints";
+$susy: (
+	columns: 12,
+	gutters: 1/4,
+	gutter-position: inside,
+);
+
+.left {
+	@include span(6 of 12);
+}
+
+.right {
+	@include span(6 last);
+}
+
+.full-width {
+	@include span(12 of 12);
+}
+
+.sidebar-left {
+	@include span(2 of 12);
+}
+
+.sidebar-right {
+	@include span(2 of 12 last);
+}
+
+.middle-shit {
+	@include span(2 at 4 of 12 isolate);
+}
