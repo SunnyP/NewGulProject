@@ -43,8 +43,8 @@ Temporary Items
 .apdisk
 
 # Files to ignore on this project
-*.scss
-*.jade
+# *.scss
+# *.jade
 
 # Directories to ignore
 bower_components
