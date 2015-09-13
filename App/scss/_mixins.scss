@@ -1,0 +1,15 @@
+@mixin pickcolor($value) {
+	background-color: lighten($basecolor, $value);
+}
+
+@mixin heading-font {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: $basecolor;
+}
+
+@mixin normal-font {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+}

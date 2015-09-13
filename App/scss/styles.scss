@@ -1,15 +1,10 @@
 @import "susy";
 @import "mappy-breakpoints";
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+@import "base";
+@import "mixins";
 @import "variables";
 @import "colorful";
-
-$susy: (
-	columns: 12,
-	gutters: 1/4,
-	gutter-position: inside,
-);
-
 
 .left {
 	@include span(6 of 12);

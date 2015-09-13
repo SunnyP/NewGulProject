@@ -1,10 +1,87 @@
-// Variables for the new file
+$susy: (
+	columns: 12,
+	gutters: 1/4,
+	gutter-position: inside,
+);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
+/* Variables for the new file */
 
-$basecolor: #CCCCCC;
+$basecolor: #886A11;
 @mixin pickcolor($value) {
-	adjust_hue(darken(saturate($basecolor, 77), 59), 124);
+	background-color: lighten($basecolor, $value);
 }
 
-$color1: $pickcolor('304');
-$color2: $pickcolor('224');
-$color3: $pickcolor('346');
+@mixin heading-font {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 600;
+	font-size: 30px;
+	color: $basecolor;
+}
+
+@mixin normal-font {
+	font-family: 'Josefin Slab', serif;
+	font-weight: 400;
+}
+
+body { @include container; margin:0; padding:0; overflow-x: hidden; width:100%; height: 100%; @include normal-font; }
+h1 { @include heading-font; }
+
+.gen {
+	height: 200px;
+	@include span(4);
+	/* width: 100%; */
+}
+.container-1 { 
+	@include container(90%); 
+
+	.firstdiv {
+		@include pickcolor(10%);
+		color: white; 
+	}
+
+	.seconddiv {
+		@include pickcolor(15%);
+	}
+
+	.thirddiv {
+		@include pickcolor(20%);
+	}
+
+}
+
+.container-2 { 
+	@include container(90%); 
+
+	.fourthdiv {
+		@include pickcolor(25%);
+		color: white; 
+	}
+
+	.fifthdiv {
+		@include pickcolor(30%);
+	}
+
+	.sixthdiv {
+		@include pickcolor(35%);
+	}
+
+}
+
+.container-3 { 
+
+	@include container(90%); 
+
+	.seventhdiv {
+		@include pickcolor(40%);
+		color: white; 
+	}
+
+	.eigthdiv {
+		@include pickcolor(45%);
+	}
+
+	.ninethdiv {
+		@include pickcolor(50%);
+	}
+
+}

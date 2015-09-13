@@ -1,78 +1,278 @@
-/*
-Error: Invalid CSS after "... 77), 59), 124)": expected "{", was ";"
-        on line 5 of App/scss/_variables.scss
-        from line 4 of App/scss/styles.scss
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
+/* Variables for the new file */
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
+/* Variables for the new file */
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+}
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
 
-1: // Variables for the new file
-2: 
-3: $basecolor: #CCCCCC;
-4: @mixin pickcolor($value) {
-5: 	adjust_hue(darken(saturate($basecolor, 77), 59), 124);
-6: }
-7: 
-8: $color1: $pickcolor('304');
-9: $color2: $pickcolor('224');
-10: $color3: $pickcolor('346');
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #886A11;
+}
 
-Backtrace:
-App/scss/_variables.scss:5
-App/scss/styles.scss:4
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1162:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1098:in `expected'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:1093:in `tok!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:638:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:708:in `declaration_or_ruleset'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:658:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:647:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:639:in `block'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:231:in `mixin_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:219:in `special_directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:194:in `directive'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:657:in `block_child'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:650:in `block_contents'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:117:in `stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/scss/parser.rb:42:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:403:in `_to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:309:in `to_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `block in with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:88:in `with_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `block in with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:115:in `with_frame'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/stack.rb:79:in `with_base'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/visitors/perform.rb:8:in `visit'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/tree/root_node.rb:20:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/engine.rb:278:in `render'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `each'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/plugin.rb:82:in `update_stylesheets'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:364:in `watch_or_update'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/exec/sass_scss.rb:51:in `process_result'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/exec/base.rb:52:in `parse'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/lib/sass/exec/base.rb:19:in `parse!'
-C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/sass-3.4.18/bin/sass:13:in `<top (required)>'
-C:/Ruby22-x64/bin/sass:23:in `load'
-C:/Ruby22-x64/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"... 77), 59), 124)\": expected \"{\", was \";\"\A         on line 5 of App/scss/_variables.scss\A         from line 4 of App/scss/styles.scss\A \A 1: // Variables for the new file\A 2: \A 3: $basecolor: #CCCCCC;\A 4: @mixin pickcolor($value) {\A 5: 	adjust_hue(darken(saturate($basecolor, 77), 59), 124);\A 6: }\A 7: \A 8: $color1: $pickcolor('304');\A 9: $color2: $pickcolor('224');\A 10: $color3: $pickcolor('346');"; }
+.gen {
+  height: 200px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  /* width: 100%; */
+}
+
+.container-1 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-1:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-1 .firstdiv {
+  background-color: #b58d17;
+  color: white;
+}
+.container-1 .seconddiv {
+  background-color: #cc9f1a;
+}
+.container-1 .thirddiv {
+  background-color: #e3b11c;
+}
+
+.container-2 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-2:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-2 .fourthdiv {
+  background-color: #e6b933;
+  color: white;
+}
+.container-2 .fifthdiv {
+  background-color: #e8c04a;
+}
+.container-2 .sixthdiv {
+  background-color: #ebc860;
+}
+
+.container-3 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-3:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-3 .seventhdiv {
+  background-color: #eed077;
+  color: white;
+}
+.container-3 .eigthdiv {
+  background-color: #f1d88e;
+}
+.container-3 .ninethdiv {
+  background-color: #f4e0a4;
+}
+
+body {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 400;
+}
+body:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+h1 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #886A11;
+}
+
+.gen {
+  height: 200px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 33.33333%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  /* width: 100%; */
+}
+
+.container-1 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-1:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-1 .firstdiv {
+  background-color: #b58d17;
+  color: white;
+}
+.container-1 .seconddiv {
+  background-color: #cc9f1a;
+}
+.container-1 .thirddiv {
+  background-color: #e3b11c;
+}
+
+.container-2 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-2:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-2 .fourthdiv {
+  background-color: #e6b933;
+  color: white;
+}
+.container-2 .fifthdiv {
+  background-color: #e8c04a;
+}
+.container-2 .sixthdiv {
+  background-color: #ebc860;
+}
+
+.container-3 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-3:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-3 .seventhdiv {
+  background-color: #eed077;
+  color: white;
+}
+.container-3 .eigthdiv {
+  background-color: #f1d88e;
+}
+.container-3 .ninethdiv {
+  background-color: #f4e0a4;
+}
+
+.left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.right {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 50%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.full-width {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.sidebar-left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.sidebar-right {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: right;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.middle-shit {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 16.66667%;
+  float: left;
+  margin-left: 25%;
+  margin-right: -100%;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+}
+
+.table {
+  width: 71.42857%;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 25%;
+  float: left;
+  padding-left: 0.83333%;
+  padding-right: 0.83333%;
+  height: 400px;
+}

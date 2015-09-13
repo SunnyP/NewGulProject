@@ -52,7 +52,7 @@ gulp.task('images', function(){
 });
 
 gulp.task('styles', function(){
-    gulp.src(['App/scss/*.scss'])
+    gulp.src(['App/scss/styles.scss'])
     .pipe(plumber({
       errorHandler: function (error) {
         console.log(error.message);

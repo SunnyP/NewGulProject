@@ -1,7 +1,63 @@
-.firstdiv {
-	background-color: $color1; 	
+body { @include container; margin:0; padding:0; overflow-x: hidden; width:100%; height: 100%; @include normal-font; }
+h1 { @include heading-font; }
+
+
+.gen {
+	height: 200px;
+	@include span(4);
+	/* width: 100%; */
+}
+.container-1 { 
+	@include container(90%); 
+
+	.firstdiv {
+		@include pickcolor(10%);
+		color: white; 
+	}
+
+	.seconddiv {
+		@include pickcolor(15%);
+	}
+
+	.thirddiv {
+		@include pickcolor(20%);
+	}
+
 }
 
-.seconddiv {
-	background-color: $color2; 
+.container-2 { 
+	@include container(90%); 
+
+	.fourthdiv {
+		@include pickcolor(25%);
+		color: white; 
+	}
+
+	.fifthdiv {
+		@include pickcolor(30%);
+	}
+
+	.sixthdiv {
+		@include pickcolor(35%);
+	}
+
+}
+
+.container-3 { 
+
+	@include container(90%); 
+
+	.seventhdiv {
+		@include pickcolor(40%);
+		color: white; 
+	}
+
+	.eigthdiv {
+		@include pickcolor(45%);
+	}
+
+	.ninethdiv {
+		@include pickcolor(50%);
+	}
+
 }
