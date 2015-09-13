@@ -1,0 +1,10 @@
+// Variables for the new file
+
+$basecolor: #CCCCCC;
+@mixin pickcolor($value) {
+	adjust_hue(darken(saturate($basecolor, 77), 59), 124);
+}
+
+$color1: $pickcolor('304');
+$color2: $pickcolor('224');
+$color3: $pickcolor('346');
