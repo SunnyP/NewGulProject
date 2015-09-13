@@ -1,8 +1,7 @@
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
 /* Variables for the new file */
-@import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
-/* Variables for the new file */
+/* $basecolor: #886A11; */
 body {
   max-width: 100%;
   margin-left: auto;
@@ -25,7 +24,7 @@ h1 {
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   font-size: 30px;
-  color: #886A11;
+  color: #E60A50;
 }
 
 .gen {
@@ -51,14 +50,14 @@ h1 {
   clear: both;
 }
 .container-1 .firstdiv {
-  background-color: #b58d17;
+  background-color: #f62d6d;
   color: white;
 }
 .container-1 .seconddiv {
-  background-color: #cc9f1a;
+  background-color: #f7467e;
 }
 .container-1 .thirddiv {
-  background-color: #e3b11c;
+  background-color: #f85e8f;
 }
 
 .container-2 {
@@ -72,14 +71,14 @@ h1 {
   clear: both;
 }
 .container-2 .fourthdiv {
-  background-color: #e6b933;
+  background-color: #f976a0;
   color: white;
 }
 .container-2 .fifthdiv {
-  background-color: #e8c04a;
+  background-color: #fa8fb1;
 }
 .container-2 .sixthdiv {
-  background-color: #ebc860;
+  background-color: #fba7c2;
 }
 
 .container-3 {
@@ -93,114 +92,14 @@ h1 {
   clear: both;
 }
 .container-3 .seventhdiv {
-  background-color: #eed077;
+  background-color: #fcc0d3;
   color: white;
 }
 .container-3 .eigthdiv {
-  background-color: #f1d88e;
+  background-color: #fdd8e4;
 }
 .container-3 .ninethdiv {
-  background-color: #f4e0a4;
-}
-
-body {
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-  width: 100%;
-  height: 100%;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
-}
-body:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-
-h1 {
-  font-family: 'Josefin Slab', serif;
-  font-weight: 600;
-  font-size: 30px;
-  color: #886A11;
-}
-
-.gen {
-  height: 200px;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 33.33333%;
-  float: left;
-  padding-left: 0.83333%;
-  padding-right: 0.83333%;
-  /* width: 100%; */
-}
-
-.container-1 {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.container-1:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.container-1 .firstdiv {
-  background-color: #b58d17;
-  color: white;
-}
-.container-1 .seconddiv {
-  background-color: #cc9f1a;
-}
-.container-1 .thirddiv {
-  background-color: #e3b11c;
-}
-
-.container-2 {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.container-2:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.container-2 .fourthdiv {
-  background-color: #e6b933;
-  color: white;
-}
-.container-2 .fifthdiv {
-  background-color: #e8c04a;
-}
-.container-2 .sixthdiv {
-  background-color: #ebc860;
-}
-
-.container-3 {
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.container-3:after {
-  content: " ";
-  display: block;
-  clear: both;
-}
-.container-3 .seventhdiv {
-  background-color: #eed077;
-  color: white;
-}
-.container-3 .eigthdiv {
-  background-color: #f1d88e;
-}
-.container-3 .ninethdiv {
-  background-color: #f4e0a4;
+  background-color: #fef1f5;
 }
 
 .left {
