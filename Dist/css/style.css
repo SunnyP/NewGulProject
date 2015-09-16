@@ -24,7 +24,7 @@ h1 {
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   font-size: 30px;
-  color: #E60A50;
+  color: #666600;
 }
 
 .gen {
@@ -50,14 +50,16 @@ h1 {
   clear: both;
 }
 .container-1 .firstdiv {
-  background-color: #f62d6d;
-  color: white;
+  background-color: #999900;
+  color: shade(#999900, 10%);
 }
 .container-1 .seconddiv {
-  background-color: #f7467e;
+  background-color: #b3b300;
+  color: shade(#b3b300, 15%);
 }
 .container-1 .thirddiv {
-  background-color: #f85e8f;
+  background-color: #cccc00;
+  color: shade(#cccc00, 20%);
 }
 
 .container-2 {
@@ -71,14 +73,16 @@ h1 {
   clear: both;
 }
 .container-2 .fourthdiv {
-  background-color: #f976a0;
-  color: white;
+  background-color: #e6e600;
+  color: shade(#e6e600, 25%);
 }
 .container-2 .fifthdiv {
-  background-color: #fa8fb1;
+  background-color: yellow;
+  color: shade(yellow, 30%);
 }
 .container-2 .sixthdiv {
-  background-color: #fba7c2;
+  background-color: #ffff1a;
+  color: shade(#ffff1a, 35%);
 }
 
 .container-3 {
@@ -92,14 +96,20 @@ h1 {
   clear: both;
 }
 .container-3 .seventhdiv {
-  background-color: #fcc0d3;
-  color: white;
+  background-color: #ffff33;
+  color: shade(#ffff33, 40%);
 }
 .container-3 .eigthdiv {
-  background-color: #fdd8e4;
+  background-color: #ffff4d;
+  color: shade(#ffff4d, 45%);
 }
 .container-3 .ninethdiv {
-  background-color: #fef1f5;
+  background-color: #ffff66;
+  color: shade(#ffff66, 50%);
+}
+
+.gen p {
+  font-size: 18px;
 }
 
 .left {

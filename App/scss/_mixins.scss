@@ -1,5 +1,6 @@
 @mixin pickcolor($value) {
 	background-color: lighten($basecolor, $value);
+	color: shade( lighten($basecolor, $value), $value );
 }
 
 @mixin heading-font {

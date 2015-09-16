@@ -12,7 +12,6 @@ h1 { @include heading-font; }
 
 	.firstdiv {
 		@include pickcolor(10%);
-		color: white; 
 	}
 
 	.seconddiv {
@@ -30,7 +29,6 @@ h1 { @include heading-font; }
 
 	.fourthdiv {
 		@include pickcolor(25%);
-		color: white; 
 	}
 
 	.fifthdiv {
@@ -49,7 +47,6 @@ h1 { @include heading-font; }
 
 	.seventhdiv {
 		@include pickcolor(40%);
-		color: white; 
 	}
 
 	.eigthdiv {
@@ -60,4 +57,8 @@ h1 { @include heading-font; }
 		@include pickcolor(50%);
 	}
 
+}
+
+.gen {
+	p { font-size: 18px; }
 }
