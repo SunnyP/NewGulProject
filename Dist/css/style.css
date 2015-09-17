@@ -1,5 +1,6 @@
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 @import url(https://fonts.googleapis.com/css?family=Josefin+Slab:400,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 /* Variables for the new file */
 /* $basecolor: #886A11; */
 body {
@@ -11,8 +12,6 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
-  font-family: 'Josefin Slab', serif;
-  font-weight: 400;
 }
 body:after {
   content: " ";
@@ -21,10 +20,10 @@ body:after {
 }
 
 h1 {
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Josefin Slab', serif !important;
   font-weight: 600;
   font-size: 30px;
-  color: #666600;
+  color: #34495E;
 }
 
 .gen {
@@ -38,11 +37,21 @@ h1 {
   padding-right: 0.83333%;
   /* width: 100%; */
 }
+.gen p {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
 
 .container-1 {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+.container-1 a {
+  font-family: 'Josefin Slab', serif !important;
+  font-weight: 600;
+  font-size: 30px;
+  color: #34495E;
 }
 .container-1:after {
   content: " ";
@@ -50,16 +59,16 @@ h1 {
   clear: both;
 }
 .container-1 .firstdiv {
-  background-color: #999900;
-  color: shade(#999900, 10%);
+  background-color: #46637f;
+  color: #dae2ea;
 }
 .container-1 .seconddiv {
-  background-color: #b3b300;
-  color: shade(#b3b300, 15%);
+  background-color: #4f6f8f;
+  color: #dae2ea;
 }
 .container-1 .thirddiv {
-  background-color: #cccc00;
-  color: shade(#cccc00, 20%);
+  background-color: #587ca0;
+  color: #dae2ea;
 }
 
 .container-2 {
@@ -73,16 +82,16 @@ h1 {
   clear: both;
 }
 .container-2 .fourthdiv {
-  background-color: #e6e600;
-  color: shade(#e6e600, 25%);
+  background-color: #6789ab;
+  color: #22303d;
 }
 .container-2 .fifthdiv {
-  background-color: yellow;
-  color: shade(yellow, 30%);
+  background-color: #7796b4;
+  color: #22303d;
 }
 .container-2 .sixthdiv {
-  background-color: #ffff1a;
-  color: shade(#ffff1a, 35%);
+  background-color: #88a2bd;
+  color: #22303d;
 }
 
 .container-3 {
@@ -96,20 +105,66 @@ h1 {
   clear: both;
 }
 .container-3 .seventhdiv {
-  background-color: #ffff33;
-  color: shade(#ffff33, 40%);
+  background-color: #98afc6;
+  color: #22303d;
 }
 .container-3 .eigthdiv {
-  background-color: #ffff4d;
-  color: shade(#ffff4d, 45%);
+  background-color: #a8bccf;
+  color: #22303d;
 }
 .container-3 .ninethdiv {
-  background-color: #ffff66;
-  color: shade(#ffff66, 50%);
+  background-color: #b9c9d8;
+  color: #22303d;
 }
 
-.gen p {
-  font-size: 18px;
+.container-4 {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-4:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+.container-4 .tenthdiv {
+  background-color: #a8bccf;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  color: #22303d;
+  border: 1px solid #22303d;
+  width: 31.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+.container-4 .eleventh {
+  background-color: #c9d5e1;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  color: #22303d;
+  border: 1px solid #22303d;
+  width: 31.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+.container-4 .twelveth {
+  background-color: #46637f;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-clip: padding-box;
+  /* stops bg color from leaking outside the border: */
+  color: #dae2ea;
+  border: 1px solid #dae2ea;
+  width: 31.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
 }
 
 .left {
