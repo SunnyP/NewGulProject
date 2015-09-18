@@ -167,6 +167,10 @@ h1 {
   margin-right: 0.83333%;
 }
 
+i {
+  margin-right: 5px;
+}
+
 .left {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
