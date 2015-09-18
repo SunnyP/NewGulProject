@@ -78,4 +78,7 @@ h1 { @include heading-font; }
     	@include pickcolor-wb(10%);
     	@include span(4 split);
     }
+    .thirteenth {
+    	@include background-image-set(span(4 split), 200px)
+    }
 }

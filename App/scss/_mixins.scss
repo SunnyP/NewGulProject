@@ -10,7 +10,7 @@
 
 @mixin pickcolor-wb($value) {
 	background-color: lighten($basecolor, $value);
-	@include border-radius(5px);
+	@include border-radius(10px);
     @if $value >= 25% {
         color: darken($basecolor, 10%);
         border: 1px solid darken($basecolor, 10%);
@@ -83,4 +83,18 @@
      -webkit-border-top-left-radius: $radius;
      border-top-left-radius: $radius;
      background-clip: padding-box;
+}
+
+@mixin background-image-set($v1,$v2) {
+	$one: strip-units($v1);
+	$two: strip-units($v2);
+	$somevar: "https://placehold.it/#{$one}x#{$two}";
+	background-image: url($somevar);
+	background-repeat: repeat-x;
+	height: $v2;
+	width: $v1;
+}
+
+@function strip-units($number) {
+  @return $number / ($number * 0 + 1);
 }

@@ -23,7 +23,7 @@ h1 {
   font-family: 'Josefin Slab', serif !important;
   font-weight: 600;
   font-size: 30px;
-  color: #34495E;
+  color: #553982;
 }
 
 .gen {
@@ -51,7 +51,7 @@ h1 {
   font-family: 'Josefin Slab', serif !important;
   font-weight: 600;
   font-size: 30px;
-  color: #34495E;
+  color: #553982;
 }
 .container-1:after {
   content: " ";
@@ -59,16 +59,16 @@ h1 {
   clear: both;
 }
 .container-1 .firstdiv {
-  background-color: #46637f;
-  color: #dae2ea;
+  background-color: #6c49a5;
+  color: #f6f3fa;
 }
 .container-1 .seconddiv {
-  background-color: #4f6f8f;
-  color: #dae2ea;
+  background-color: #7954b4;
+  color: #f6f3fa;
 }
 .container-1 .thirddiv {
-  background-color: #587ca0;
-  color: #dae2ea;
+  background-color: #8665bc;
+  color: #f6f3fa;
 }
 
 .container-2 {
@@ -82,16 +82,16 @@ h1 {
   clear: both;
 }
 .container-2 .fourthdiv {
-  background-color: #6789ab;
-  color: #22303d;
+  background-color: #9477c3;
+  color: #3e295f;
 }
 .container-2 .fifthdiv {
-  background-color: #7796b4;
-  color: #22303d;
+  background-color: #a289cb;
+  color: #3e295f;
 }
 .container-2 .sixthdiv {
-  background-color: #88a2bd;
-  color: #22303d;
+  background-color: #b09bd3;
+  color: #3e295f;
 }
 
 .container-3 {
@@ -105,16 +105,16 @@ h1 {
   clear: both;
 }
 .container-3 .seventhdiv {
-  background-color: #98afc6;
-  color: #22303d;
+  background-color: #beacdb;
+  color: #3e295f;
 }
 .container-3 .eigthdiv {
-  background-color: #a8bccf;
-  color: #22303d;
+  background-color: #ccbee3;
+  color: #3e295f;
 }
 .container-3 .ninethdiv {
-  background-color: #b9c9d8;
-  color: #22303d;
+  background-color: #dad0ea;
+  color: #3e295f;
 }
 
 .container-4 {
@@ -128,43 +128,49 @@ h1 {
   clear: both;
 }
 .container-4 .tenthdiv {
-  background-color: #a8bccf;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background-color: #ccbee3;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  color: #22303d;
-  border: 1px solid #22303d;
+  color: #3e295f;
+  border: 1px solid #3e295f;
   width: 31.66667%;
   float: left;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
 }
 .container-4 .eleventh {
-  background-color: #c9d5e1;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background-color: #e8e1f2;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  color: #22303d;
-  border: 1px solid #22303d;
+  color: #3e295f;
+  border: 1px solid #3e295f;
   width: 31.66667%;
   float: left;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
 }
 .container-4 .twelveth {
-  background-color: #46637f;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
+  background-color: #6c49a5;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
   background-clip: padding-box;
   /* stops bg color from leaking outside the border: */
-  color: #dae2ea;
-  border: 1px solid #dae2ea;
+  color: #f6f3fa;
+  border: 1px solid #f6f3fa;
   width: 31.66667%;
   float: left;
   margin-left: 0.83333%;
   margin-right: 0.83333%;
+}
+.container-4 .thirteenth {
+  background-image: url("https://placehold.it/31.66667x200");
+  background-repeat: repeat-x;
+  height: 200px;
+  width: 31.66667%;
 }
 
 i {
